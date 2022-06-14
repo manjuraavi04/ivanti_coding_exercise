@@ -1,0 +1,1 @@
+select * from cars where price in (select max(price) from cars group by manufacturer);
