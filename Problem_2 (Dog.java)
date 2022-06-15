@@ -1,0 +1,23 @@
+
+
+public class Dog extends Animal implements Jump, Bark{
+	
+	private String fur_color;
+
+	public String getFur_color() {
+		return fur_color;
+	}
+
+	public void setFur_color(String fur_color) {
+		this.fur_color = fur_color;
+	}
+	
+	public void jump() {
+		 System.out.print("I jump!");
+	}
+	  
+	public void bark() {
+	   System.out.print("I bark!");
+	} 
+		
+}
