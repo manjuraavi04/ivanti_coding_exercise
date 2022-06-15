@@ -1,0 +1,22 @@
+
+
+public class Frog extends Animal implements Jump, Croak{
+	private String poison_level;
+
+	public String getPoison_level() {
+		return poison_level;
+	}
+
+	public void setPoison_level(String poison_level) {
+		this.poison_level = poison_level;
+	}
+	
+	public void jump() {
+		System.out.print("I jump!");
+	}
+	  
+	public void croack() {
+	    System.out.print("I crock!");
+	}
+		
+}
